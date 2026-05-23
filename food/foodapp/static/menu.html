@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Card</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 60px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:url("C:\\Users\\Marliya Banu\\EX 6 WEBSITE\\softweb\\food\\foodapp\\static\\images\\bg6.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: darken(2px) brightness(0.6);
+            z-index: -1;
+        }
+
+        .menu-card {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            width: 320px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+        }
+
+        .menu-card h1 {
+            text-align: center;
+            color:pink;
+            margin-bottom: 20px;
+            font-size: 28px;
+            text-transform: uppercase;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-bottom: 1px dashed pink;
+        }
+
+        .menu-item img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+
+        .item-details {
+            flex-grow: 1;
+        }
+
+        .item-name {
+            font-size: 18px;
+            color: white;
+        }
+
+        .item-price {
+            font-weight: bold;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-card">
+        <h1>BREAKFAST</h1>
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\idly.jpg" alt="Idly">
+            <div class="item-details"><div class="item-name">Idly</div></div>
+            <div class="item-price">Rs. 50</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\parrota.jpg" alt="Parotta">
+            <div class="item-details"><div class="item-name">Parotta</div></div>
+            <div class="item-price">Rs. 70</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\masala dosa.jpg" alt="Masala Dosa">
+            <div class="item-details"><div class="item-name">Masala Dosa</div></div>
+            <div class="item-price">Rs. 100</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\idiyapam.jpg" alt="Idiyappam">
+            <div class="item-details"><div class="item-name">Idiyappam</div></div>
+            <div class="item-price">Rs. 60</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <h1>LUNCH</h1>
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\briyani.jpg" alt=" Briyani">
+            <div class="item-details"><div class="item-name"> Briyani</div></div>
+            <div class="item-price">Rs. 150</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\friedrice.jpg" alt="Fried Rice">
+            <div class="item-details"><div class="item-name">Fried Rice</div></div>
+            <div class="item-price">Rs. 160</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\indian.jpg" alt="Meals">
+            <div class="item-details"><div class="item-name">Meals</div></div>
+            <div class="item-price">Rs. 200</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\s.jpg" alt="Sambar Rice">
+            <div class="item-details"><div class="item-name">Sambar Rice</div></div>
+            <div class="item-price">Rs. 150</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <h1>DESSERT</h1>
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\fc.jpg" alt="Fruit Cake">
+            <div class="item-details"><div class="item-name">Fruit Cake</div></div>
+            <div class="item-price">Rs. 250</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\browine.avif" alt="SIZZLING BROWNIE">
+            <div class="item-details"><div class="item-name">SIZZLING BROWNIE</div></div>
+            <div class="item-price">Rs. 200</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\c.jpg" alt="Cheesecake">
+            <div class="item-details"><div class="item-name">Cheesecake</div></div>
+            <div class="item-price">Rs. 180</div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\falooda.jpg" alt="Falooda">
+            <div class="item-details"><div class="item-name">Falooda</div></div>
+            <div class="item-price">Rs. 150</div>
+        </div>
+    </div>
+
+</body>
+</html>

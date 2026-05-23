@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Booking Form</title>
+
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            font-family:'Segoe UI',sans-serif;
+
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            overflow:hidden;
+            color:white;
+        }
+
+        body::before{
+            content:"";
+            position:fixed;
+            top:0;
+            left:0;
+
+            width:100%;
+            height:100%;
+
+            background-image:url("C:\\Users\\Marliya Banu\\EX 6 WEBSITE\\softweb\\food\\foodapp\\static\\images\\b1.png");
+
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+
+            filter:brightness(0.6);
+
+            z-index:-1;
+        }
+
+        .booking-form{
+
+            width:400px;
+
+            background:rgba(0,0,0,0.75);
+
+            padding:20px;
+
+            border-radius:15px;
+
+            backdrop-filter:blur(8px);
+
+            box-shadow:0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .booking-form h2{
+
+            text-align:center;
+
+            margin-bottom:20px;
+
+            font-size:24px;
+
+            color:white;
+
+            text-transform:uppercase;
+        }
+
+        .form-group{
+
+            margin-bottom:12px;
+        }
+
+        label{
+
+            display:block;
+
+            margin-bottom:5px;
+
+            font-size:15px;
+
+            font-weight:bold;
+        }
+
+        input,
+        select,
+        textarea{
+
+            width:100%;
+
+            padding:8px;
+
+            border:none;
+
+            border-radius:6px;
+
+            font-size:14px;
+
+            box-sizing:border-box;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus{
+
+            outline:none;
+
+            border:2px solid yellow;
+        }
+
+        textarea{
+
+            height:70px;
+
+            resize:none;
+        }
+
+        button{
+
+            width:100%;
+
+            padding:10px;
+
+            border:none;
+
+            border-radius:6px;
+
+            background:yellow;
+
+            color:black;
+
+            font-size:16px;
+
+            font-weight:bold;
+
+            cursor:pointer;
+
+            transition:0.3s;
+        }
+
+        button:hover{
+
+            background:gold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <form class="booking-form">
+
+        <h2>Book Your Table</h2>
+
+        <div class="form-group">
+
+            <label>Full Name:</label>
+
+            <input type="text" placeholder="Enter your name">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Email Address:</label>
+
+            <input type="email" placeholder="Enter your email">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Phone Number:</label>
+
+            <input type="tel" placeholder="Enter your phone number">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Number of Guests:</label>
+
+            <select>
+
+                <option>Select</option>
+
+                <option>1</option>
+
+                <option>2</option>
+
+                <option>3-4</option>
+
+                <option>5-6</option>
+
+                <option>7-10</option>
+
+            </select>
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Date:</label>
+
+            <input type="date">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Time:</label>
+
+            <input type="time">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Special Requests:</label>
+
+            <textarea placeholder="Any special instructions..."></textarea>
+
+        </div>
+
+        <button type="submit">Book Table</button>
+
+    </form>
+
+</body>
+</html>

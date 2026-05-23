@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMINISTRATION</title>
+
+    <style>
+
+        body{
+            margin:0;
+            padding:20px;
+            font-family:Arial, sans-serif;
+
+            background-image:url("C:\\Users\\Marliya Banu\\EX 6 WEBSITE\\softweb\\food\\foodapp\\static\\images\\ct.png");
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+        }
+
+        .grid-container{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:30px;
+            justify-items:center;
+        }
+
+        .image-box{
+            width:280px;
+            background:rgba(255,255,255,0.5);
+            border-radius:20px;
+            overflow:hidden; /* removes extra empty space */
+            text-align:center;
+            backdrop-filter:blur(5px);
+            box-shadow:0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .image-box img{
+            width:100%;
+            height:320px; 
+            object-fit:cover; 
+            display:block;
+        }
+
+        .image-box h1{
+            font-size:24px;
+            margin:15px 10px;
+            color:black;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="image-box">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\ceo.jpeg">
+            <h1>CEO</h1>
+        </div>
+
+        <div class="image-box">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\g.jpeg">
+            <h1>GENERAL MANAGER</h1>
+        </div>
+
+        <div class="image-box">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\hd.jpeg">
+            <h1>HEAD CHEF</h1>
+        </div>
+
+        <div class="image-box">
+            <img src="C:\\Users\\Marliya Banu\\EX 6 WEBSITE\\softweb\\food\\foodapp\\static\\images\\c4.jpeg">
+            <h1>FINANCE MANAGER</h1>
+        </div>
+
+        <div class="image-box">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\op1.jpeg">
+            <h1>OPERATIONS MANAGER</h1>
+        </div>
+
+        <div class="image-box">
+            <img src="C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\static\images\op .jpeg">
+            <h1>MARKETING MANAGER</h1>
+        </div>
+
+    </div>
+
+</body>
+</html>
