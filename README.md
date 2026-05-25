@@ -748,20 +748,19 @@ CONTACT.HTML
 ```
 
 ## OUTPUT:
-![Output](C:\Users\Marliya Banu\EX 6 WEBSITE\softweb\food\foodapp\output\1.png)
+![Output](food/foodapp/output/1.png)
 
-![Output](output/2.png)
+![Output](food/foodapp/output/2.png)
 
-![Output](output/3.png)
+![Output](food/foodapp/output/3.png)
 
-![Output](output/4.png)
+![Output](food/foodapp/output/4.png)
 
-![Output](output/5.png)
+![Output](food/foodapp/output/5.png)
 
-![Output](output/6.png)
+![Output](food/foodapp/output/6.png)
 
-![Output](output/7.png)
-
+![Output](food/foodapp/output/7.png)
 
 ## RESULT:
 
