@@ -758,8 +758,6 @@ CONTACT.HTML
 
 ![Output](food/foodapp/output/5.png)
 
-![Output](food/foodapp/output/6.png)
-
 ![Output](food/foodapp/output/7.png)
 
 ## RESULT:
